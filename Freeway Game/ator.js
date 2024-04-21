@@ -8,7 +8,7 @@ let meusPontos = 0;
 function mostraAtor(){
   image(imagemDoAtor, xAtor, yAtor, 30, 30);
   //print(yAtor)
-  print(xAtor)
+  //print(xAtor)
 }
 
 function movimentaAtor(){
