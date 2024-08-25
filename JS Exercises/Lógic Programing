@@ -1,0 +1,81 @@
+/*alert("Boas vindas ao jogo do número secreto!");
+let numeroSecreto = 4;
+console.log(numeroSecreto)
+
+let chute = prompt("Escolha um número entre 1 e 10");
+console.log('Valor do chute:', chute);
+
+console.log('Resultado da comparação:', chute == numeroSecreto)
+if (numeroSecreto == chute) {
+    //console.log("Isso aí! Você descobriu o número secreto (5)");
+    alert(`Isso aí! Você descobriu o número secreto ${numeroSecreto}`);
+} else {
+    //console.log('Valor do número secreto:', numeroSecreto);
+    alert('Você errou! O número secreto era' + numeroSecreto);
+}*/
+
+/*alert("Boas vindas ao jogo do número secreto!");
+let numeroSecreto = 4;
+
+
+let pontuação = 0;
+
+while (pontuação < 100) {
+    let chute = prompt("Escolha um número entre 1 e 10");
+
+
+    if (chute == numeroSecreto) {
+        pontuação = pontuação + 50 // or pontuacao += 50;
+        alert(`Isso aí! Você descobriu o número secreto ${numeroSecreto} sua pontuação é de ${pontuação}`);
+    } else {
+        alert('Você errou! O número secreto era ' + numeroSecreto + '  pontuação é de ' + pontuação);
+    }
+}
+alert("Fim de jogo! Sua pontuação final é " + pontuação);*/
+
+//let sConta = "R$ 500.000, 00";
+//alert('Olá seja bem-vindo! O seu saldo atual da conta é de ' + sConta);
+
+//let nome = prompt("Olá tudo bem? Digite o seu nome");
+//alert("Seja muito bem vindo " + nome + "!");
+
+/*alert("Oi tudo bem?")
+let diaSemana = prompt("Você sabe qual é o dia da semana?")
+
+if (diaSemana == "Sábado") {
+    alert("Bom fim de semana");
+}
+if (diaSemana == "Domingo") {
+    alert("Bom fim de semana");
+}
+else {
+    alert("Boa semana!");
+}*/
+
+
+/*let numeroDigitado = prompt("Digite um número?")
+let sinalNegativo = "-"
+
+if (numeroDigitado.includes(sinalNegativo)) {
+    alert("O número que você digitou é negativo");
+}
+else {
+    alert("Você digitou um número positivo");
+}*/
+
+
+/*alert("Boas vindas ao nosso site!");
+let nome = "lua";
+let idade = 18;
+let numeroDeVendas = 50;
+let saldoDisponivel = 100;
+let mensagemDeErro = ("Erro! Preencha todos os campos");
+
+alert(mensagemDeErro);
+
+let nomeuUsuario = prompt("Qual o seu nome?");
+let idadeUsuario = prompt("Qual a sua idade?");
+
+if (idadeUsuario >= idade) {
+    alert("Pode tirar a habilitação!");
+}*/
