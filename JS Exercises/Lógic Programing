@@ -17,12 +17,12 @@ if (numeroSecreto == chute) {
 /*alert("Boas vindas ao jogo do número secreto!");
 let numeroSecreto = 4;
 
+//Crie um sistema de pontuação para um jogo. Se a pontuação for maior ou igual a 100, mostre "Parabéns, você venceu!" no console do navegador. Caso contrário, mostre "Tente novamente para ganhar.".
 
 let pontuação = 0;
 
 while (pontuação < 100) {
     let chute = prompt("Escolha um número entre 1 e 10");
-
 
     if (chute == numeroSecreto) {
         pontuação = pontuação + 50 // or pontuacao += 50;
@@ -33,11 +33,18 @@ while (pontuação < 100) {
 }
 alert("Fim de jogo! Sua pontuação final é " + pontuação);*/
 
+//Crie uma mensagem que informa o usuário sobre o saldo da conta, usando uma template string para incluir o valor do saldo.
+
 //let sConta = "R$ 500.000, 00";
 //alert('Olá seja bem-vindo! O seu saldo atual da conta é de ' + sConta);
 
+Peça ao usuário para inserir seu nome usando prompt. Em seguida, mostre um alerta de boas-vindas usando esse nome.
+
 //let nome = prompt("Olá tudo bem? Digite o seu nome");
 //alert("Seja muito bem vindo " + nome + "!");
+
+
+//Pergunte ao usuário qual é o dia da semana. Se a resposta for "Sábado" ou "Domingo", mostre "Bom fim de semana!". Caso contrário, mostre "Boa semana!".
 
 /*alert("Oi tudo bem?")
 let diaSemana = prompt("Você sabe qual é o dia da semana?")
@@ -52,6 +59,7 @@ else {
     alert("Boa semana!");
 }*/
 
+//Verifique se um número digitado pelo usuário é positivo ou negativo. Mostre um alerta informando.
 
 /*let numeroDigitado = prompt("Digite um número?")
 let sinalNegativo = "-"
@@ -63,6 +71,7 @@ else {
     alert("Você digitou um número positivo");
 }*/
 
+//Desafio feito em aula
 
 /*alert("Boas vindas ao nosso site!");
 let nome = "lua";
